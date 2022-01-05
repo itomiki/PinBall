@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreController : MonoBehaviour{
 
     //Score
-    private int Score = 0;
+    static private int Score = 0;
 
     //Kasan_suru_score
 	private int AddScore;
